@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/dotsnack.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>DotSnack</title>
+
+</head>
+<body>
+    <!-- Barra lateral -->
+    <div class="sidebar">
+
+        <!-- Logo -->
+        <img class="img-dot" src="images/dotsnack.png">
+        <div><ion-icon name="location-outline"></ion-icon> Fatec Itu</div>
+  
+        <!-- Lista dos Menus -->
+        <div class="sidebar-menus">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Pedidos</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>Carteira</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notificações</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Bate-Papo</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Configurações</a>
+        </div>
+        
+        <!-- Logout -->
+        <div class="sidebar-logout">
+            <a href="#"><ion-icon name="log-out-outline"></ion-icon>Sair</a>
+        </div>
+    </div>
+
+    <!-- Barra principal -->
+    <div class="main">
+        <!-- Barra principal de Navegação -->
+        <div class="main-navbar">
+            <!-- Menu compatível com a versão Mobile -->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <!-- Barra de Pesquisa-->
+            <div class="search">
+                <input type="text" placeholder="O que você quer comer hoje?">
+                <button class="search-btn">Pesquisar</button>
+            </div>
+            <!-- Ícone de perfil no lado esquerdo da barra de navegação-->
+            <div class="profile">
+            <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+            <a href="cadastro.html"><button class="user"><ion-icon name="person-outline"></ion-icon> Cadastre-se</button></a>
+            <a href="login.html"><button class="user"><ion-icon name="log-in-outline"></ion-icon> Login</button></a>
+            </div>
+        </div>
+        
+        <!-- Destaque principal -->
+        <div class="main-highlight">
+            <!-- Seção de título e seta -->
+            <div class="main-header">
+                <h2 class="main-title">Recomendações</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/chocolate.jpg">
+                    <div class="highlight-desc">
+                        <h4>Chocolate Hersheys</h4>
+                        <p>R$ 12,90</p>
+                    </div>
+                </div>
+            
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/refrislata.jfif">
+                    <div class="highlight-desc">
+                        <h4>Refrigerante Lata</h4>
+                        <p>R$ 7,90</p>
+                    </div>
+                </div>
+            
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/coxinha.jpg">
+                    <div class="highlight-desc">
+                        <h4>Coxinha de Frango</h4>
+                        <p>R$ 6,90</p>
+                    </div>
+                </div>
+            
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/cachorroquente.jfif">
+                    <div class="highlight-desc">
+                        <h4>Cachorro-Quente</h4>
+                        <p>R$ 11,90</p>
+                    </div>
+                </div>
+
+                <!-- MAIS RECOMENDAÇÕES AQUI-->
+            </div>
+            
+   <!-- Menu Categorias -->
+<div class="main-menus">
+    <!-- Filtros -->
+    <h2 class="main-title2">Menu Categorias</h2>
+    <div class="main-arrow">
+        <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+        <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+    </div>
+    <div class="main-filter">
+        
+       
+    </div>
+    <div class="filter-wrapper">
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon name="restaurant-outline"></ion-icon>
+            </div>
+            <p>Todos os Menus</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon name="fast-food-outline"></ion-icon>
+            </div>
+            <p>Hamburguers</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon name="pizza-outline"></ion-icon>
+            </div>
+            <p>Pizza</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon name="wine-outline"></ion-icon>
+            </div>
+            <p>Bebidas Geladas</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon name="ice-cream-outline"></ion-icon>
+            </div>
+            <p>Sobremesas</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon name="cafe-outline"></ion-icon>
+            </div>
+            <p>Bebidas Quentes</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon name="fast-food-outline"></ion-icon>
+            </div>
+            <p>Salgados Diversos</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon name="nutrition-outline"></ion-icon>
+            </div>
+            <p>Comidas Saudáveis</p>
+        </div>
+    </div>
+    <hr class="divider">
+
+    <!-- LISTA DE PRODUTOS PARA PEDIDOS-->
+            </div>
+        <div class="main-detail"> 
+            <h2 class="main-title"> Faça seu pedido</h2>
+            <div class="detail-wrapper">
+
+                <div class="detail-card">   
+                    <img class="detail-image" src="images/mistoquente.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Misto Quente</h4>
+                            <p class="detail_sub">
+
+                                O misto quente é um lanche simples e delicioso. Consiste em fatias de queijo e presunto, entre duas fatias de pão tostado. É uma escolha reconfortante e clássica que combina simplicidade e sabor.</p>
+                            <p class="preco"> R$ 7,00</p>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  
+                </div>
+                <div class="detail-card">
+                        <img class="detail-image" src="images/Coffe.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Café</h4>
+                                <p class="detail_sub">O café é uma bebida quente feita de grãos de café torrados. É conhecido por seu sabor rico e aroma atraente, e pode ser preparado de várias maneiras.</p>
+                                <p class="preco">R$ 4,00</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-image" src="images/salada.jfif">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Salada</h4>
+                            <p class="detail_sub">A salada é um prato composto principalmente de vegetais frescos, como alface, tomate, cenoura e outros ingredientes saudáveis. É conhecida por ser leve, refrescante e nutritiva. </p>
+                            <p class="preco">R$ 12,00</p>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="detail-card">
+            <img class="detail-image" src="images/lanche.png">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>Lanche</h4>
+                    <p class="detail_sub">Um lanche é uma comida feita com pão, carne, queijo, vegetais e molhos. Pode ser quente ou frio e tem muitas variações.</p>
+                    <p class="preco">R$ 12,00</p>
+                </div>
+                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+        </div>
+    </div>
+    <div class="detail-card">
+        <img class="detail-image" src="images/coxinha.jpg">
+        <div class="detail-desc">
+            <div class="detail-name">
+                <h4>Coxinha</h4>
+                <p class="detail_sub">Uma coxinha de frango é um salgado popular, especialmente no Brasil. É feita com uma massa de farinha de trigo recheada com um recheio cremoso de frango desfiado, temperos e, às vezes, catupiry. </p>
+                <p class="preco">R$ 6,00</p>
+            </div>
+            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+        </div>
+    </div>
+
+            <div class="detail-card">
+                <img class="detail-image" src="images/Pizza.jpg">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Pizza</h4>
+                        <p class="detail_sub">Pizza é uma comida italiana feita com massa de pão, molho de tomate e diversos ingredientes, como queijo, carnes e vegetais, assados até ficarem gostosos. É muito popular no mundo todo e tem muitas variações deliciosas.</p>
+                        <p class="preco">R$ 9,00</p>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-image" src="images/refrigerante.jfif">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Epsi</h4>
+                        <p class="detail_sub">Refrigerante é uma bebida carbonatada e açucarada que é muito popular em todo o mundo. Ela é geralmente servida gelada e pode ter diversos sabores, como cola, limão, laranja, uva, entre outros. </p>
+                        <p class="preco">R$ 5,00</p>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-image" src="images/suco de laranja.jfif">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Suco de Laranja</h4>
+                        <p class="detail_sub">Suco de laranja natural é uma bebida refrescante e nutritiva feita a partir do suco espremido de laranjas frescas. É conhecido por seu sabor doce e cítrico, além de ser uma excelente fonte de vitamina C</p>
+                        <p class="preco">R$ 4,00</p>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+
+            <!-- MAIS PRODUTOS AQUI-->
+        </div>
+    </div>
+</div>
+</div>
+
+    
+
+
+</body>
+    <!-- Importação dos ícones do Ionic -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
+</html>
+
